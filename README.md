@@ -1,2 +1,3 @@
 # Kodeku
-Kumpulan kode dasar java dan xml android studio !!YG UPDATE FOLDER KODEARAN!!
+Kumpulan kode dasar java dan xml android studio 
+Yang update hanya folder KodeAran
