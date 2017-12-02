@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.aran.intentku.MainActivity">
+
+    <Button
+        android:id="@+id/btn_pindah_tanpa_data_acitvity"
+        android:text="pindah aktivity tanpa membawa data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_utama"
+        />
+    <Button
+        android:id="@+id/btn_pindah_dengan_data_acitvity"
+        android:text="pindah aktivity dengan membawa data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_utama"
+        />
+    <Button
+        android:id="@+id/btn_pindah_dengan_objek_acitvity"
+        android:text="pindah aktivity dengan membawa objek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_utama"
+        />
+    <Button
+        android:id="@+id/btn_pindah_ke_aplikasi_lain_acitvity"
+        android:text="pindah ke aplikasi lain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_utama"
+        />
+    <!--TODO (E.11) Tambahkan btn dan tv-->
+    <Button
+        android:id="@+id/btn_pindah_ke_result_activity"
+        android:text="pindah ke aktivity result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_utama"
+        />
+    <Button
+        android:id="@+id/btn_pindah_ke_objek_result_activity"
+        android:text="pindah ke aktivity objek result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_utama"
+        />
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="Hasil"/>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO (A.1) Buat FrameLayout sebagai wadah fragment-fragment-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_wadah"
+    tools:context="com.example.aran.flexibelfragmentku.MainActivity">
+
+</FrameLayout>
