@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aran.intentku.UntukHasilActivity"
+    android:orientation="vertical">
+
+    <!--TODO (E.2) Buat 1 buah TextView, 1 buah Radio Group, 3 buah Radio Button  dan 1 buah Button-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih angka yang kamu suka"
+        android:layout_margin="@dimen/margin_utama"/>
+    <RadioGroup
+        android:id="@+id/rg_nomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="300"/>
+
+        <RadioButton
+            android:id="@+id/rb_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="200"/>
+
+        <RadioButton
+            android:id="@+id/rb_100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/tombol_pilih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pilih"/>
+</LinearLayout>

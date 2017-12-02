@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.aran.flexibelfragmentku.MainActivity">
+<!--TODO (B.2) Buat tv dan btn-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini halaman Fragment Kategori "
+        android:layout_marginBottom="@dimen/margin_utama"/>
+    <Button
+        android:id="@+id/btn_detail_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategory Lifestyle"/>
+</LinearLayout>

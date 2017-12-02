@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.aran.flexibelfragmentku.MainActivity">
+    <!--TODO (C.2) Buat 2 tv dan 2 btn-->
+    <TextView
+        android:id="@+id/tv_nama_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category Name"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/tv_deskripsi_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category Description"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ke Halaman Activity"/>
+    <Button
+        android:id="@+id/btn_tampilkan_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan sebuah dialog"/>
+</LinearLayout>
